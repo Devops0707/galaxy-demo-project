@@ -37,7 +37,7 @@
 	      	<configuration>
    		    <url>http://184.72.205.95:8090/manager/text</url>
    		    <server>TomcatServer</server>
-   		    <path>/second-demo-project</path>
+   		    <path>/galaxy-demo-project</path>
 		        </configuration>
   </plugin>
         <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
@@ -82,16 +82,4 @@
       </plugins>
     </pluginManagement>
   </build>
-<distributionManagement>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>a0raf5lt3657k-artifactory-primary-0-snapshots</name>
-        <url>https://firstgalaxy.jfrog.io/artifactory/five-libs-snapshot-local</url>
-</snapshotRepository>
-<repository>
-        <id>central</id>
-        <name>a0raf5lt3657k-artifactory-primary-0-releases</name>
-        <url>https://firstgalaxy.jfrog.io/artifactory/five-libs-release-local</url>
-    </repository>
-</distributionManagement>  
 </project>
